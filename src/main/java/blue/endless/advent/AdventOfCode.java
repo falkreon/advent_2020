@@ -26,6 +26,14 @@ public class AdventOfCode {
 		case "2b":
 			Day2.genericDay2B();
 			break;
+			
+		case "3":
+			Day3.run();
+			break;
+			
+		case "3b":
+			Day3.runPartB();
+			break;
 		}
 	}
 }
