@@ -11,29 +11,36 @@ public class AdventOfCode {
 		case "1":
 		case "report_repair":
 			Day1.reportRepair("day1.dat");
-			
-			
 			break;
+			
 		case "1b":
 			Day1.reportAdvanced("day1.dat");
-			
 			break;
 		
 		case "2":
 			Day2.runDay2();
 			break;
-			
+		
 		case "2b":
 			Day2.genericDay2B();
 			break;
-			
+		
 		case "3":
 			Day3.run();
 			break;
-			
+		
 		case "3b":
 			Day3.runPartB();
 			break;
+			
+		case "4":
+			Day4.run();
+			break;
+		
+		case "4b":
+			Day4.runPartB();
+			break;
+		
 		}
 	}
 }
