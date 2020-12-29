@@ -18,6 +18,14 @@ public class AdventOfCode {
 			Day1.reportAdvanced("day1.dat");
 			
 			break;
+		
+		case "2":
+			Day2.runDay2();
+			break;
+			
+		case "2b":
+			Day2.genericDay2B();
+			break;
 		}
 	}
 }
