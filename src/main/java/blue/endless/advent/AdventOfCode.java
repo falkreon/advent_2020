@@ -41,6 +41,23 @@ public class AdventOfCode {
 			Day4.runPartB();
 			break;
 		
+		//TODO: Day 5
+			
+		case "6":
+			Day6.run();
+			break;
+			
+		case "6b":
+			Day6.runPartB();
+			break;
+			
+		case "7":
+			Day7.run();
+			break;
+		
+		case "7b":
+			Day7.runPartB();
+			break;
 		}
 	}
 }
